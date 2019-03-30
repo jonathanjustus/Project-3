@@ -11,4 +11,8 @@ public class MesoEqual
 		asciiValues = new HashMap<String, Integer>();
 	}
 	
+	public HashMap<String, Integer> calAsciiEqual() throws IOException
+	{
+		
+	}
 }
