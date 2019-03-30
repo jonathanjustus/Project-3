@@ -20,6 +20,10 @@ public class MesoEqual
 		FileInputStream Mesonet = new FileInputStream("Mesonet.txt");
 		Scanner keyboard = new Scanner(Mesonet);
 		
+		keyboard.nextLine();
+		keyboard.nextLine();
+		keyboard.nextLine();
+		
 		return asciiValues;
 	}
 }
