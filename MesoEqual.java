@@ -42,6 +42,9 @@ public class MesoEqual
 			++i;
 		}
 		
+		Mesonet.close();
+		keyboard.close();
+		
 		return asciiValues;
 	}
 }
