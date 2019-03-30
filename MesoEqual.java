@@ -24,6 +24,24 @@ public class MesoEqual
 		keyboard.nextLine();
 		keyboard.nextLine();
 		
+		int i = 0;
+		int theStation = new MesoAscii(new MesoStation(stID)).calAverage();
+		
+		while (i < 119)
+		{
+			String compareStation = keyboard.next();
+			MesoAscii compareMesoAscii = new MesoAscii(new MesoStation(compareStation));
+			int compareAsciiValues = compareMesoAscii.calAverage();
+				
+			if (compareAsciiValues == theStation)
+			{
+				asciiValues.put(compareStation, compareAsciiValues);
+			}
+			
+			keyboard.nextLine();
+			++i;
+		}
+		
 		return asciiValues;
 	}
 }
