@@ -10,4 +10,9 @@ public class StationLexicographical extends MesoSortedAbstract
 		sortedMap(asciiValues);
 	}
 	
+	public Map<String, Integer> sortedMap(HashMap<String, Integer> unsortedHashMap)
+	{
+		
+		return sortedMap;
+	}
 }
