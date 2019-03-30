@@ -1,3 +1,4 @@
+import java.util.HashMap;
 
 public class StationLexicographical extends MesoSortedAbstract
 {
