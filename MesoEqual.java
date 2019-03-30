@@ -1,3 +1,13 @@
+/**
+ * MesoEqual Class
+ * 
+ * @author johny
+ * @version 3-30-19
+ */
+
+/**
+ * Import Statements
+ */
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;
@@ -5,15 +15,27 @@ import java.util.Scanner;
 
 public class MesoEqual
 {
+	/**
+	 * Instance Variables
+	 */
 	private String stID;
 	private HashMap<String, Integer> asciiValues;
 	
+	/**
+	 * Constructor
+	 * @param stID
+	 */
 	public MesoEqual(String stID)
 	{
 		this.stID = stID;
 		asciiValues = new HashMap<String, Integer>();
 	}
 	
+	/**
+	 * calAsciiEqual Method
+	 * @return asciiValues
+	 * @throws IOException
+	 */
 	public HashMap<String, Integer> calAsciiEqual() throws IOException
 	{
 
